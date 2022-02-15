@@ -53,4 +53,10 @@ nav ul li a:nth-child(2) a:hover{
 .wrapper{
   background-color: #67d50c;
   margin: 0 2em 0 2em;
+
+#primary{
+  padding: 0 0 1em 2em;
+}
+#main_article{
+  padding: 0 1em 0 1em;
 }
