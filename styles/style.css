@@ -32,7 +32,7 @@ nav ul li a{
   text-decoration: none;
 }
 nav ul li a:hover{
-color: #000;
+color: #fff;
 text-transform: uppercase;
 text-decoration: none;
 }
@@ -52,4 +52,5 @@ nav ul li a:nth-child(2) a:hover{
 }
 .wrapper{
   background-color: #67d50c;
+  margin: 0 2em 0 2em;
 }
