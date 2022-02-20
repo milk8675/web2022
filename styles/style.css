@@ -26,13 +26,12 @@ width: 50%;
 }
 nav ul{
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  justify-items: center;
+  justify-items: left;
   list-style-type: none;
 }
 nav ul li{
   background-color: #5f1d58;
   border: 1px solid #5f1d58;
-  padding: 1em 3em 1em 3em;
   font-weight: bold;
   text-align: center;
 }
@@ -49,7 +48,6 @@ text-decoration: none;
 nav ul li:nth-child(1){
   font-size: 1rem;
   border: 1px solid #14065d;
-  padding:2em 3em 0em 1em;
   font-weight: bold;
 }
 nav ul li:nth-child(1) a{
@@ -64,7 +62,6 @@ nav ul li:nth-child(2){
   font-size: 1rem;
   background-color: #14065d;
   border: 1px solid #14065d;
-  padding: 2em 3em 0em 1em;
   font-weight: bold;
 }
 nav ul li:nth-child(2) a{
@@ -80,7 +77,6 @@ nav ul li:nth-child(3){
   text-align: center;
   background-color: #f33e09;
   border: 1px solid #f33e09;
-  padding: 2em 3em 0em 1em;
   font-weight: bold;
 }
 nav ul li:nth-child(3) a{
@@ -95,7 +91,6 @@ nav ul li:nth-child(4){
   font-size: 1rem;
   background-color: #038e7f;
   border: 1px solid #14065d;
-  padding: 2em 3em 0em 1em;
   font-weight: bold;
 }
 nav ul li:nth-child(4) a{
