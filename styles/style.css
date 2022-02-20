@@ -1,6 +1,6 @@
 html {
   font-size: 100%;
-  background-color: #fff;
+  background-color: #fff
 }
 body {
   padding: 0;
@@ -9,23 +9,32 @@ body {
   font-family: arial, sans-serif;
 }
 header {
-  height: 6em;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  justify-items: left;
+  height: 3.5rem;
+  padding-top: .1rem;
+  padding-bottom: .3rem;
   background-color: #a97ada;
   color: #fff;
-  font-size: .5rem;
-  text-transform: uppercase;
+  font-size: 1rem;
+  text-transform: uppercase
 }
 header img{
-height: 100%;
+height: 35%;
+width: 50%;
 }
 nav ul{
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  justify-items: center;
   list-style-type: none;
 }
 nav ul li{
   background-color: #5f1d58;
   border: 1px solid #5f1d58;
-  padding: 1em 4em 1em 4em;
+  padding: 1em 3em 1em 3em;
   font-weight: bold;
+  text-align: center;
 }
 nav ul li a{
   color: #fff;
@@ -38,8 +47,9 @@ text-transform: uppercase;
 text-decoration: none;
 }
 nav ul li:nth-child(1){
+  font-size: 1rem;
   border: 1px solid #14065d;
-  padding: 1em 4em 1em 4em;
+  padding:2em 3em 0em 1em;
   font-weight: bold;
 }
 nav ul li:nth-child(1) a{
@@ -51,9 +61,10 @@ nav ul li a:nth-child(1) a:hover{
   text-decoration: none;
 }
 nav ul li:nth-child(2){
+  font-size: 1rem;
   background-color: #14065d;
   border: 1px solid #14065d;
-  padding: 1em 4em 1em 4em;
+  padding: 2em 3em 0em 1em;
   font-weight: bold;
 }
 nav ul li:nth-child(2) a{
@@ -65,9 +76,11 @@ nav ul li a:nth-child(2) a:hover{
   text-decoration: none;
 }
 nav ul li:nth-child(3){
+  font-size: 1rem;
+  text-align: center;
   background-color: #f33e09;
   border: 1px solid #f33e09;
-  padding: 1em 4em 1em 4em;
+  padding: 2em 3em 0em 1em;
   font-weight: bold;
 }
 nav ul li:nth-child(3) a{
@@ -79,9 +92,10 @@ nav ul li a:nth-child(3) a:hover{
   text-decoration: none;
 }
 nav ul li:nth-child(4){
+  font-size: 1rem;
   background-color: #038e7f;
   border: 1px solid #14065d;
-  padding: 1em 4em 1em 4em;
+  padding: 2em 3em 0em 1em;
   font-weight: bold;
 }
 nav ul li:nth-child(4) a{
@@ -94,7 +108,13 @@ nav ul li a:nth-child(4) a:hover{
 }
 .wrapper{
   background-color: #67d50c;
+  color: #000000;
   margin: 0 2em 0 2em;
+}
+#primary{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  padding: 0 0 1rem 2rem;
 }
 #main_article{
   padding: 0 1em 0 1em;
@@ -102,23 +122,34 @@ nav ul li a:nth-child(4) a:hover{
 }
 article h2{
   text-align: center;
+  font-size: 50px;
 background: linear-gradient(to right, #ef5350, #f48fb1, #7e57c2, #2196f3, #26c6da, #43a047, #eeff41, #f9a825, #ff5722);
 }
-figure{
-  padding: 1em 1em 0 1em;
+article h3{
+  text-align: center;
+  font-size: 42px;
+  color: #e84510;
+}
+article h4{
+  text-align: center;
+  font-size: 20px;
+  color: #000;
+}
+article p{
+  text-align: center;
 }
 figure img{
-  text-align: center;
+  justify-items: center;
   width: 25%;
-  height: 25%;
-  border-radius: 50px;
+  padding-left: 27.5rem;
 }
 figcaption{
-  text-align: left;
+  text-align: center;
   font-family: arial, sans-serif;
   font-size: 0.75rem;
 }
 footer{
+  display: flex;
   background-color: #a97ada;
   color: #fff;
   padding: 0em 0 0 2em;
