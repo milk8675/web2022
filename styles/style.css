@@ -109,15 +109,15 @@ nav ul li a:nth-child(4) a:hover{
 .wrapper{
   background-color: #67d50c;
   color: #000000;
-  margin: 0 2em 0 2em;
+  margin: 0 2em 0 1em;
 }
 #primary{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  padding: 0 0 1rem 2rem;
+  padding: 0 0 0rem 0rem;
 }
 #main_article{
-  padding: 0 1em 0 1em;
+  padding: 0 1rem 0 1rem;
   color: #000;
 }
 article h2{
@@ -141,7 +141,7 @@ article p{
 figure img{
   justify-items: center;
   width: 25%;
-  padding-left: 27.5rem;
+  padding-left: 57rem;
 }
 figcaption{
   text-align: center;
