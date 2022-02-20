@@ -41,9 +41,9 @@ nav ul li a{
   text-decoration: none;
 }
 nav ul li a:hover{
-color: #fff;
+color: #ffffff;
 text-transform: uppercase;
-text-decoration: none;
+text-decoration: underline;
 }
 nav ul li:nth-child(1){
   font-size: 1rem;
@@ -56,7 +56,7 @@ nav ul li:nth-child(1) a{
 nav ul li a:nth-child(1) a:hover{
   color: #fff;
   text-transform: uppercase;
-  text-decoration: none;
+  text-decoration: underline;
 }
 nav ul li:nth-child(2){
   font-size: 1rem;
@@ -70,7 +70,7 @@ nav ul li:nth-child(2) a{
 nav ul li a:nth-child(2) a:hover{
   color: #fff;
   text-transform: uppercase;
-  text-decoration: none;
+  text-decoration: underline;
 }
 nav ul li:nth-child(3){
   font-size: 1rem;
@@ -85,7 +85,7 @@ nav ul li:nth-child(3) a{
 nav ul li a:nth-child(3) a:hover{
   color: #fff;
   text-transform: uppercase;
-  text-decoration: none;
+  text-decoration: underline;
 }
 nav ul li:nth-child(4){
   font-size: 1rem;
@@ -99,7 +99,7 @@ nav ul li:nth-child(4) a{
 nav ul li a:nth-child(4) a:hover{
   color: #fff;
   text-transform: uppercase;
-  text-decoration: none;
+  text-decoration: underline;
 }
 .wrapper{
   background-color: #67d50c;
