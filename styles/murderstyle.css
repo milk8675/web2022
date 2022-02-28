@@ -1,0 +1,141 @@
+html {
+  font-size: 100%;
+  background-color: #fff
+}
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #e81310;
+  font-family: arial, sans-serif;
+}
+  header {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    justify-items: center;
+    height: 3.5rem;
+    padding-top: .1rem;
+    padding-bottom: .3rem;
+    background-color: #000;
+    color: #fff;
+    font-size: 1rem;
+    text-transform: uppercase
+  }
+  header img{
+  height: 75%;
+  width: 50%;
+  }
+  nav ul{
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    justify-items: left;
+    list-style-type: none;
+  }
+  nav ul li{
+    background-color: #5f1d58;
+    border: 1px solid #5f1d58;
+    font-weight: bold;
+    text-align: center;
+  }
+  nav ul li a{
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  nav ul li a:hover{
+  color: #ffffff;
+  text-transform: uppercase;
+  text-decoration: underline;
+  }
+  nav ul li:nth-child(1){
+    font-size: 1rem;
+    background-color: #24e810;
+    border: 1px solid #24e810;
+    font-weight: bold;
+  }
+  nav ul li:nth-child(1) a{
+    color: #fff;
+  }
+  nav ul li a:nth-child(1) a:hover{
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: underline;
+  }
+  nav ul li:nth-child(2){
+    font-size: 1rem;
+    background-color: #5f1d58;
+    border: 1px solid #5f1d58;
+    font-weight: bold;
+  }
+  nav ul li:nth-child(2) a{
+    color: #fff;
+  }
+  nav ul li a:nth-child(2) a:hover{
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: underline;
+  }
+  nav ul li:nth-child(3){
+    font-size: 1rem;
+    text-align: center;
+    background-color: #14065d;
+    border: 1px solid #14065d;
+    font-weight: bold;
+  }
+  nav ul li:nth-child(3) a{
+    color: #fff;
+  }
+  nav ul li a:nth-child(3) a:hover{
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: underline;
+  }
+  nav ul li:nth-child(4){
+    font-size: 1rem;
+    background-color: #038e7f;
+    border: 1px solid #14065d;
+    font-weight: bold;
+  }
+  nav ul li:nth-child(4) a{
+    color: #fff;
+  }
+  nav ul li a:nth-child(4) a:hover{
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: underline;
+  }
+  .wrapper{
+    background-color: #926b69;
+    color: #000000;
+    margin: 0 2em 0 1em;
+  }
+  #primary{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    padding: 0 0 0rem 0rem;
+  }
+  #main_article{
+    padding: 0 1rem 0 1rem;
+    color: #000;
+  }
+  article h2{
+    text-align: center;
+    font-size: 50px;
+    color: #ad0d17;
+  }
+  article h3{
+    text-align: center;
+    font-size: 30px;
+  }
+  article p{
+    text-align: center;
+  }
+  figure img {
+  justify-items: center;
+  width: 20%;
+  padding-left: 29rem;
+}
+footer{
+  display: flex;
+  background-color: #000;
+  color: #fff;
+  padding: 0em 0 0 2em;
+}
