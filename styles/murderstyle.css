@@ -118,8 +118,9 @@ body {
   }
   article h2{
     text-align: center;
+    background-color: #cccccc;
     font-size: 50px;
-    color: #ad0d17;
+
   }
   article h3{
     text-align: center;
