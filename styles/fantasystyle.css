@@ -110,7 +110,7 @@ body {
     text-decoration: underline;
   }
   .wrapper{
-    background-color: #926b69;
+    background-color: #c7cdb4;
     color: #000000;
     margin: 0 2em 0 1em;
   }
@@ -125,9 +125,9 @@ body {
   }
   article h2{
     text-align: center;
-    background-color: #cccccc;
+    background-color: #33354c;
     font-size: 50px;
-
+    color: #ffffff; 
   }
   article h3{
     text-align: center;
