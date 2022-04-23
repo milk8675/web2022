@@ -1,4 +1,4 @@
-// Start dark mode if it's after 6:59:59pm
+// Start dark mode if it's after 4:59:59pm
 if (new Date().getHours() > 18) {
   const html = document.querySelector('html');
   html.style.backgroundColor = '#black';
