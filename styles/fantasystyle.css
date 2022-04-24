@@ -68,7 +68,7 @@ body {
   }
   nav ul li:nth-child(2){
     font-size: 1rem;
-    background-color: #14065d;
+    background-color: #5f1d58;
     border: 1px solid #5f1d58;
     font-weight: bold;
   }
@@ -97,7 +97,7 @@ body {
   }
   nav ul li:nth-child(4){
     font-size: 1rem;
-    background-color: #5f1d58;
+    background-color: #14065d;
     border: 1px solid #14065d;
     font-weight: bold;
   }
